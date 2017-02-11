@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>CrystalsCollector Game</title>
+</head>
+
+<body>
+    <!-- This is my Random Div -->
+    <div id="randomNumberDiv" class="randomNumberDivClass"></div>
+    <!-- This will track my wins and loss -->
+    <div id="winAndLoss"></div>
+    <!-- These are my buttons -->
+    <div id="allButtons">
+        <!-- Button 1 -->
+        <div id="buttonOne"><img src="http://vignette3.wikia.nocookie.net/marvel-contestofchampions/images/1/1c/2-Star_Crystal.png/revision/latest?cb=20150825213642"></div>
+        <!-- Button 2 -->
+        <div id="buttonTwo"><img src="http://vignette2.wikia.nocookie.net/the-overseer/images/e/ea/Diamond.png/revision/latest?cb=20130131221613"></div>
+        <!-- Button 3 -->
+        <div id="buttonThree"><img src="http://vignette4.wikia.nocookie.net/steven-universe/images/6/68/Amethyst_gem_day.png/revision/latest?cb=20151213160838"></div>
+        <!-- Button 4 -->
+        <div id="buttonFour"><img src="http://orig02.deviantart.net/34f2/f/2014/340/4/2/jewels_png_by_violettalestrange-d88xk94.png"></div>
+    </div>
+    <!-- Just a text in this div -->
+    <div>Your Total Score Is:</div>
+    <!-- My total Score which updates every time a button is clicked -->
+    <div id="totalScore"></div>
+    <script type="text/javascript">
+
+    $(document).ready(function() {
+        // This will choose my random num
+        var randomNumber = Math.floor(Math.random() * 101 + 19);
+        // This pushes my random num in to randomNumberDiv
+        $("#randomNumberDiv").text(randomNumber);
+
+
+
+    })
+
+    </script>
+</body>
+
+</html>
