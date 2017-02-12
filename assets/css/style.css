@@ -1,3 +1,6 @@
+body {
+	background-image: url("../images/school.png");
+}
 img {
 	border: 2px double;
 	border-color: black;
@@ -6,6 +9,7 @@ img {
 	float: left;
 	height: 100px;
 	width: 100px;
+	overflow: auto;
 }
 
 img:hover{
@@ -24,13 +28,69 @@ img:hover{
 
 	border: 2px solid;
 	border-color: black;
-	background-color: gray;
-	width: 100px;
-	height: 50px;
+	background-color: #B95835;
+	width: 150px;
+	height: 90px;
 	font-size: 40px;
+	float: left;
+	position: absolute;
+}
+
+.spanTotalText {
+	 font-weight: bold;
+	 font-size: 20px;
+	
 }
 
 .myTextDiv{
-	clear: left;
+
+	margin-top: 20px;
+	width: 300px;
+	height: 25px;
+	clear: both;
+	background-color: #3D3242;
+
+	
+}
+
+.myCountDiv {
+	width: 300px;
+	margin-top: 10px;
+	height: 150px;
+	background-color: #3D3242;
+	font-size: 40px;
+
+}
+.mainRulesDiv{
+
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 16px;
+font-weight: bold;
+
+}
+.scoreDiv{
+
+	border: 2px solid;
+	border-color: black;
+	width: 100px;
+	height: 90px;
+	
+	position: relative;
+	left: 160px;
+	background-color: #EECD86;
+}
+
+.nameDiv {
+	width: 310px;
+	background-color: #E18942;
+	font-size: 40px;
+}
+
+.rulesDiv {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #3D3242;
+	height: 350px;
+	width: 340px;
 }
 
